@@ -15,6 +15,11 @@ app.use(express.static("Develop/public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { useNewUrlParser: true });
 
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  console.log("db connected!");
+});
 
 // routes
 app.use(require("./Develop/src/routes/api-routes"));
