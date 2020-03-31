@@ -1,6 +1,6 @@
 # Nosql Homework: Workout Tracker
 ### Using a non-relational database to track fitness progress
-<!-- * Deployed Application: (TODO: link) -->
+* Deployed Application: (https://anz-workout-tracker.herokuapp.com/?id=5e83cf56608d530017e8929f)
 
 This practice application allows a user to view create and track daily workouts, and log multiple exercises in a workout on a given day. It also allows for traking of asic workout mtrics for both cardio and resistance training.
 
