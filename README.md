@@ -9,7 +9,7 @@ This practice application allows a user to view create and track daily workouts,
 The front-end code in `/Develop` was mostly provided and only minimally modified. The goal was to practice setting up the back-end environment to make it functional. App intended functionality was slightly unclear, but it seems to be working as intended (although not how I would design this app...)
 
 ## Viewing and using the website
-<!-- Follow the link to the deployed application above, or  -->
+Follow the link to the deployed application above, or
 
 - Clone and Download the repo
 
